@@ -1,9 +1,10 @@
-from tinymce import HTMLField
+from tinymce.models import HTMLField
 from django.db import models
 from django.contrib.auth import get_user_model
 from django.urls import reverse
 
 User = get_user_model()
+
 
 
 class PostView(models.Model):
